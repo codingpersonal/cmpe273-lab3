@@ -1,6 +1,6 @@
 # cmpe273-lab3
 
-Setup
+#Setup
 
 ##Server
 go get github.com/aggarwalsomya/cmpe273-lab3/server
@@ -52,7 +52,9 @@ Status 200 OK
 ### To get a key directly from server
 
 http://localhost:300x/keys/1			(call appropriate server for key 1)
+
 Response: 200 OK
+
 {"key":1,"value":"a"}
 
 
@@ -62,6 +64,7 @@ Response: 200 OK
 http://localhost:300x/keys
 
 Response: 200 OK
+
 [{"key":2,"value":"b"},{"key":4,"value":"d"},{"key":7,"value":"g"},{"key":9,"value":"i"},{"key":10,"value":"j"},{"key":1,"value":"a"}]
 
 
